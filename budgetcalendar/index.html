@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>정돈 - 일정과 가계부를 한 번에</title>
+<meta name="description" content="복잡한 일'정'도, 흩어진 '돈'도 정돈. 달력에서 일정과 지출을 함께 관리하는 일정·가계부 앱.">
+<style>
+  :root{
+    --ink:#123a35; --body:#3a5a55; --muted:#678580;
+    --sky:#d6f3ec; --mint:#7fd8c2; --card:#ffffff; --line:#d6e6e2;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--card); color:var(--body);
+    font-family:"Pretendard","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+    line-height:1.75; -webkit-text-size-adjust:100%;
+  }
+  .hero{
+    background:linear-gradient(170deg,var(--sky),var(--mint));
+    padding:72px 24px 80px; text-align:center;
+  }
+  .hero h1{margin:.4em 0 .2em; font-size:2.6rem; color:var(--ink); letter-spacing:-.02em}
+  .hero p{margin:0; color:#215a50; font-size:1.05rem}
+  .icon{
+    width:112px; height:112px; border-radius:26%;
+    box-shadow:0 10px 28px rgba(18,58,53,.22);
+  }
+  main{max-width:720px; margin:0 auto; padding:56px 24px 88px}
+  h2{color:var(--ink); font-size:1.4rem; margin:2.4em 0 .6em; letter-spacing:-.01em}
+  h2:first-child{margin-top:0}
+  ul{padding-left:1.15em}
+  li{margin:.45em 0}
+  .grid{display:grid; gap:14px; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); margin-top:20px}
+  .card{border:1px solid var(--line); border-radius:14px; padding:18px 20px; background:#fbfdfc}
+  .card b{display:block; color:var(--ink); margin-bottom:.3em}
+  footer{border-top:1px solid var(--line); padding:32px 24px 56px; text-align:center; color:var(--muted); font-size:.9rem}
+  a{color:#16806f}
+  footer a{margin:0 10px; display:inline-block}
+  @media (prefers-color-scheme: dark){
+    :root{--ink:#d4efe9; --body:#b2cbc6; --muted:#87a29c; --card:#111816; --line:#25352f}
+    .card{background:#16211e}
+    a{color:#6fd6c2}
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <img class="icon" src="icon.png" alt="정돈 앱 아이콘">
+  <h1>정돈</h1>
+  <p>복잡한 일'정'도, 흩어진 '돈'도 한 번에</p>
+</div>
+
+<main>
+  <h2>어떤 앱인가요</h2>
+  <p>
+    여행을 가면 일정과 돈이 함께 움직입니다. 그런데 보통은 캘린더 앱과 가계부 앱을 따로 씁니다.
+    정돈은 <b>달력 하나</b>에서 일정과 지출을 함께 기록하고, 그날 어디에 얼마를 썼는지 바로 보여주는
+    일정·가계부 앱입니다.
+  </p>
+
+  <div class="grid">
+    <div class="card"><b>일정마다 지출 연결</b>제주 여행, 모임 같은 일정에 지출을 묶어 두면 일정별로 얼마를 썼는지 한눈에 보입니다.</div>
+    <div class="card"><b>결제 알림 자동 기록</b>카드·간편결제 알림을 읽어 지출을 바로 기록합니다. 켤지 말지는 직접 고릅니다.</div>
+    <div class="card"><b>빠른 입력</b>자주 쓰는 내역 한 번 누르기, 사유 자동 완성, 금액 칸 계산기.</div>
+    <div class="card"><b>통계와 예산</b>카테고리별 지출, 지난달과 비교, 예산 80%·100% 알림. 월급날 기준 한 달도 됩니다.</div>
+    <div class="card"><b>고정·반복 내역</b>월세, 통신비, 매일 교통비처럼 날짜가 되면 저절로 기록됩니다.</div>
+    <div class="card"><b>D-day와 위젯</b>기념일·시험 D-day, 홈 화면 위젯 4종, 태블릿 2단 화면.</div>
+  </div>
+
+  <h2>기록은 휴대폰 안에만</h2>
+  <p>
+    정돈은 기록을 보관하는 서버를 두지 않습니다. 일정과 가계부 기록은 휴대폰 안에만 저장되고,
+    개발자는 그 내용을 볼 수 없습니다. 계정 가입도 로그인도 필요 없습니다.
+  </p>
+  <p>
+    원하시면 Google 계정을 연결해 <b>본인 Drive의 앱 전용 숨김 폴더</b>에 백업하거나,
+    직접 고른 폴더에 백업 파일을 저장할 수 있습니다.
+  </p>
+  <ul>
+    <li>분석 도구 없음</li>
+    <li>결제 없음</li>
+    <li>무료 — 운영을 위해 광고가 표시됩니다</li>
+  </ul>
+  <p>
+    광고는 메인 달력 하단 배너와, 일정·지출을 저장할 때 가끔 나오는 전면 광고뿐입니다.
+    입력하신 일정과 가계부 기록은 광고와 무관하며 광고 회사로 전달되지 않습니다.
+    자세한 내용은 <a href="./privacy.html">개인정보처리방침</a>에 있습니다.
+  </p>
+
+  <h2>문의</h2>
+  <p><a href="mailto:xorud01111@gmail.com">xorud01111@gmail.com</a></p>
+</main>
+
+<footer>
+  <a href="./privacy.html">개인정보처리방침</a>
+  <a href="mailto:xorud01111@gmail.com">문의</a>
+</footer>
+
+</body>
+</html>

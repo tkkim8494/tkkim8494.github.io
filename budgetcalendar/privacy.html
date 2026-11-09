@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>개인정보처리방침 - 정돈</title>
+<meta name="description" content="정돈(일정·가계부)의 개인정보처리방침. 일정과 가계부 기록은 기기 안에만 저장됩니다.">
+<style>
+  :root{--ink:#163b36;--body:#3b5a55;--muted:#6b8580;--card:#ffffff;--line:#d6e6e2;--soft:#f0f7f5}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--card);color:var(--body);
+    font-family:"Pretendard","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+    line-height:1.8;-webkit-text-size-adjust:100%}
+  header{background:var(--soft);padding:48px 24px;border-bottom:1px solid var(--line)}
+  header div{max-width:760px;margin:0 auto}
+  header h1{margin:0 0 .2em;color:var(--ink);font-size:1.9rem;letter-spacing:-.02em}
+  header p{margin:0;color:var(--muted);font-size:.95rem}
+  main{max-width:760px;margin:0 auto;padding:40px 24px 88px}
+  h2{color:var(--ink);font-size:1.25rem;margin:2.2em 0 .5em;letter-spacing:-.01em}
+  h3{color:var(--ink);font-size:1.02rem;margin:1.6em 0 .4em}
+  hr{border:0;border-top:1px solid var(--line);margin:2.4em 0}
+  table{border-collapse:collapse;width:100%;margin:1em 0;font-size:.95rem}
+  th,td{border:1px solid var(--line);padding:10px 13px;text-align:left;vertical-align:top}
+  th{background:var(--soft);color:var(--ink)}
+  code{background:var(--soft);padding:.12em .4em;border-radius:5px;font-size:.88em;word-break:break-all}
+  strong{color:var(--ink)}
+  ul{padding-left:1.15em}
+  li{margin:.35em 0}
+  a{color:#16806f}
+  .table-wrap{overflow-x:auto}
+  footer{border-top:1px solid var(--line);padding:28px 24px 56px;text-align:center;color:var(--muted);font-size:.9rem}
+  footer a{margin:0 10px;display:inline-block}
+  @media (prefers-color-scheme: dark){
+    :root{--ink:#d4efe9;--body:#b2cbc6;--muted:#87a29c;--card:#111816;--line:#25352f;--soft:#16231f}
+    a{color:#6fd6c2}
+  }
+</style>
+</head>
+<body>
+<header><div>
+  <h1>개인정보처리방침</h1>
+  <p>정돈 - 일정과 가계부를 한 번에</p>
+</div></header>
+<main>
+<p><strong>앱 이름:</strong> 정돈</p>
+<p><strong>패키지:</strong> <code>io.github.tkkim8494.budgetcalendar</code></p>
+<p><strong>시행일:</strong> 2026년 11월 9일</p>
+<p><strong>문의:</strong> xorud01111@gmail.com</p>
+<hr>
+
+<h2>한 줄 요약</h2>
+<p>정돈은 기록을 보관하는 서버를 두지 않습니다. 입력하신 일정과 가계부 기록은 <strong>사용자 휴대폰 안에만</strong> 저장되며, 개발자는 그 내용을 볼 수 없습니다. 계정 가입도 필요 없습니다.</p>
+<p>기록이 휴대폰 밖으로 나가는 경우는 <strong>사용자가 직접 켜거나 실행한 기능</strong>(Drive 백업, 폴더 백업·내보내기, 휴대폰의 Google 백업, 지도에서 보기)뿐입니다. 다만 앱 운영을 위해 <strong>Google AdMob 광고</strong>를 표시하며, 이 과정에서 Google이 광고 식별자 등을 수집합니다(아래 6번).</p>
+<hr>
+
+<h2>1. 기기 안에 저장하는 정보</h2>
+<p>아래 정보는 <strong>사용자 기기 내부에만</strong> 저장됩니다. 개발자 서버로 전송되는 정보는 없습니다.</p>
+<ul>
+<li><strong>일정</strong>: 제목, 날짜·시간, 반복, 알림, 색, 위치(직접 입력한 글자), 메모</li>
+<li><strong>가계부</strong>: 지출·수입·이체 금액, 사유, 카테고리, 결제수단, 메모, 연결한 일정, 기록 방식(직접·결제 알림·반복)</li>
+<li><strong>가계부 설정</strong>: 예산, 고정·반복 내역, 자주 쓰는 내역, 카테고리·결제수단 목록, 월 시작일</li>
+<li><strong>D-day</strong>: 제목, 날짜</li>
+<li><strong>휴지통</strong>: 지운 일정·내역을 되살릴 수 있도록 30일 동안 보관</li>
+<li><strong>앱 설정</strong>: 화면 꾸미기(직접 고른 달력 배경 사진은 앱 안에 복사본으로 저장), 앱 잠금 사용 여부, 알림 설정 등</li>
+</ul>
+<h3>수집하지 않는 것</h3>
+<p>정돈은 <strong>분석 도구와 크래시 리포트를 사용하지 않습니다.</strong> 또한 다음을 수집하지 않습니다.</p>
+<ul>
+<li>위치 정보 (위치 권한을 요청하지 않습니다)</li>
+<li>연락처, 통화 기록, 문자함, 마이크, 카메라</li>
+<li>이름, 전화번호, 주소 등 신원 정보 (Drive 백업을 연결한 경우의 이메일 주소는 아래 4번)</li>
+<li>앱 사용 통계</li>
+</ul>
+<p><strong>입력하신 일정과 가계부 기록은 광고와 무관합니다.</strong> 광고 SDK로 전달되지 않으며 광고 타겟팅에 사용되지 않습니다.</p>
+<hr>
+
+<h2>2. 결제 알림 자동 기록 (선택 기능)</h2>
+<p>사용자가 직접 켜고, 휴대폰 설정에서 정돈의 <strong>'알림 접근'</strong>을 허용한 경우에만 동작합니다. 켜지 않아도 앱의 다른 기능은 모두 정상 동작합니다.</p>
+<ul>
+<li><strong>읽는 앱</strong>: 카드사·은행·간편결제·문자 앱 중 허용 목록에 있는 앱과, 사용자가 직접 추가한 앱의 알림만 확인합니다. 그 밖의 앱 알림은 <strong>아무것도 저장하지 않고 버립니다.</strong> 어떤 앱이 알림을 보냈는지도 기록하지 않습니다.</li>
+<li><strong>읽는 내용</strong>: 결제·승인 알림에서 금액, 가맹점, 카드사 이름, 결제 시각, 할부 개월을 읽어 지출 1건으로 기록합니다.</li>
+<li><strong>저장하는 것</strong>: 기록된 지출 내역, 그리고 같은 결제가 두 번 기록되지 않도록 하는 값(알림 문구로 만든 해시, 최근 3일간 결제의 금액·시각·가맹점)뿐이며 모두 기기 안에 있습니다. <strong>알림 원문은 저장하지 않습니다.</strong></li>
+<li>문자함을 직접 읽지 않습니다(문자 읽기 권한 없음). 문자 앱이 띄우는 새 문자 알림만 확인합니다.</li>
+<li>모든 처리는 기기 안에서 이루어지며 <strong>외부로 전송하지 않습니다.</strong></li>
+<li>언제든 앱의 설정 &gt; 자동 기록에서 끄거나, 휴대폰 설정에서 알림 접근을 해제할 수 있습니다.</li>
+</ul>
+<hr>
+
+<h2>3. 요청하는 권한</h2>
+<div class="table-wrap"><table><thead><tr><th>권한</th><th>사용 목적</th></tr></thead><tbody>
+<tr><td>알림</td><td>일정 알림, 예산 알림, 자동 기록·고정 지출 기록 알림</td></tr>
+<tr><td>정확한 알람</td><td>일정 알림을 정한 시각에 보내기 위해 (캘린더 앱)</td></tr>
+<tr><td>부팅 후 실행</td><td>휴대폰을 다시 켠 뒤 일정 알림을 다시 예약하기 위해</td></tr>
+<tr><td>캘린더 읽기</td><td>'기기 캘린더 가져오기'를 실행할 때만, 휴대폰 캘린더의 일정을 읽어 정돈으로 복사합니다. 휴대폰 캘린더에 쓰거나 지우지 않습니다.</td></tr>
+<tr><td>알림 접근 (알림 리스너)</td><td>결제 알림 자동 기록 (위 2번, 선택)</td></tr>
+<tr><td>생체 인식</td><td>앱 잠금. 휴대폰의 잠금(지문·얼굴·PIN·패턴)을 <strong>시스템이</strong> 확인하며, 앱은 생체 정보를 받지 않습니다.</td></tr>
+<tr><td>인터넷, 네트워크 상태</td><td>광고 표시, Google Drive 백업</td></tr>
+<tr><td>광고 ID</td><td>Google AdMob 광고 (아래 6번)</td></tr>
+</tbody></table></div>
+<hr>
+
+<h2>4. 백업과 내보내기 (사용자가 켜거나 실행할 때만)</h2>
+<h3>Google Drive 백업</h3>
+<p>Google 계정을 연결한 경우에만, 기록이 압축 파일 하나로 만들어져 <strong>사용자 본인의 Google Drive 앱 전용 숨김 폴더(appDataFolder)</strong>에 저장됩니다. 직접 '지금 백업'을 누르거나, 자동 백업(매일·매주)을 켠 경우에 저장되며 최신 2개만 보관합니다.</p>
+<ul>
+<li>요청하는 권한은 <code>https://www.googleapis.com/auth/drive.appdata</code> 하나뿐입니다. 정돈이 만든 파일만 다룰 수 있으며, <strong>사용자의 다른 Drive 파일은 읽을 수도 볼 수도 없습니다.</strong></li>
+<li>이 폴더는 Drive 화면에 보이지 않고, 다른 앱도 <strong>개발자도 접근할 수 없습니다.</strong></li>
+<li>연결된 계정을 화면에 표시하기 위해 <strong>이메일 주소를 기기 안에만</strong> 저장합니다.</li>
+<li>Google Drive와의 통신은 HTTPS(TLS)로 암호화됩니다.</li>
+</ul>
+<h3>기기 폴더 백업, 파일로 내보내기·가져오기, CSV·엑셀 내보내기</h3>
+<p>사용자가 고른 위치(휴대폰 폴더 또는 그 위치에 연결된 클라우드 드라이브 등)에만 파일을 저장합니다. 저장된 파일의 관리는 그 위치를 제공하는 서비스의 정책을 따릅니다.</p>
+<h3>휴대폰의 Google 백업 (Android 자동 백업)</h3>
+<p>휴대폰 설정에서 Google 백업이 켜져 있으면, Android가 정돈의 기록과 설정을 사용자의 Google 계정에 백업하고 휴대폰을 바꿀 때 복원할 수 있습니다. 이 기능은 Google이 제공하며 Google의 정책을 따릅니다. 직접 고른 달력 배경 사진은 포함되지 않습니다.</p>
+<hr>
+
+<h2>5. 지도에서 보기</h2>
+<p>일정 상세 화면에서 위치를 누르면, 입력하신 위치 글자를 휴대폰의 지도 앱(지도 앱이 없으면 브라우저의 Google 지도)에 넘겨 검색합니다. <strong>누를 때만</strong> 전달되며, 그 뒤의 처리는 해당 지도 앱·서비스의 정책을 따릅니다. 정돈은 사용자의 현재 위치를 확인하지 않습니다.</p>
+<hr>
+
+<h2>6. 광고 (Google AdMob)</h2>
+<p>정돈은 무료로 제공되며, 운영 비용을 충당하기 위해 <strong>Google AdMob</strong> 광고를 표시합니다.</p>
+<h3>표시 위치</h3>
+<ul>
+<li>메인 달력 화면 하단 배너</li>
+<li>일정·지출·수입을 저장한 직후 전면 광고 (최소 1시간 간격)</li>
+</ul>
+<h3>Google이 수집하는 정보</h3>
+<p>광고를 제공하는 과정에서 Google은 아래 정보를 수집·이용할 수 있습니다. 이 정보는 <strong>Google이 수집하는 것이며 개발자에게 전달되지 않습니다.</strong> 개발자는 총 노출수와 수익 같은 집계 통계만 볼 수 있습니다.</p>
+<div class="table-wrap"><table><thead><tr><th>항목</th><th>설명</th></tr></thead><tbody>
+<tr><td>광고 ID (AAID)</td><td>기기마다 부여되는 재설정 가능한 광고 식별자</td></tr>
+<tr><td>IP 주소</td><td>대략적인 국가·지역 판단에 사용</td></tr>
+<tr><td>기기 정보</td><td>기기 모델, OS 버전, 언어, 화면 크기</td></tr>
+<tr><td>광고 상호작용</td><td>광고 노출·클릭 기록</td></tr>
+</tbody></table></div>
+<p>이를 위해 앱에 <code>com.google.android.gms.permission.AD_ID</code> 권한이 포함됩니다. 유럽경제지역·영국 등 동의가 필요한 지역에서는 앱을 처음 열 때 Google의 동의 화면이 표시되며, 이후 앱의 설정 &gt; 정보 &gt; '광고 개인정보 설정'에서 바꿀 수 있습니다.</p>
+<h3>광고 개인 최적화 해제 및 광고 ID 삭제</h3>
+<p>기기 설정 → Google → 광고 → 광고 ID 삭제 (또는 "광고 개인 최적화 선택 해제")</p>
+<p>광고 ID를 삭제해도 앱의 모든 기능은 그대로 동작하며, 광고가 사라지지는 않고 <strong>개인 맞춤도가 낮은 광고</strong>가 표시됩니다.</p>
+<ul>
+<li>Google 광고 정책: <a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a></li>
+<li>Google 개인정보처리방침: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+</ul>
+<hr>
+
+<h2>7. 제3자 제공</h2>
+<p>정돈은 어떤 정보도 <strong>판매하지 않으며</strong>, 데이터 브로커와 연동하지 않습니다. 앱이 정보를 주고받는 대상은 아래뿐입니다.</p>
+<div class="table-wrap"><table><thead><tr><th>대상</th><th>전달되는 것</th><th>언제</th></tr></thead><tbody>
+<tr><td><strong>Google AdMob</strong></td><td>광고 ID, IP, 기기 정보 (위 6번)</td><td>광고 표시</td></tr>
+<tr><td><strong>사용자 본인의 Google Drive</strong></td><td>백업 파일</td><td>Drive 백업을 켠 경우</td></tr>
+<tr><td><strong>사용자가 고른 저장 위치</strong></td><td>백업·내보내기 파일</td><td>사용자가 실행한 경우</td></tr>
+<tr><td><strong>지도 앱 또는 Google 지도</strong></td><td>일정의 위치 글자</td><td>위치를 누른 경우</td></tr>
+<tr><td><strong>Google Play</strong></td><td>앱 평가 요청 (Play가 표시 여부를 결정)</td><td>일정 기간 사용 후 한 번</td></tr>
+</tbody></table></div>
+<hr>
+
+<h2>8. 보관 기간과 삭제</h2>
+<div class="table-wrap"><table><thead><tr><th>대상</th><th>삭제 방법</th></tr></thead><tbody>
+<tr><td>기기 안의 기록 전체</td><td>앱 안에서 직접 삭제하거나, 앱을 삭제하면 함께 삭제됩니다. 지운 항목은 휴지통에 30일 보관된 뒤 자동으로 지워집니다(휴지통에서 바로 영구 삭제 가능).</td></tr>
+<tr><td>Google Drive 백업</td><td>Google Drive 웹 → 설정 → 앱 관리 → 정돈 → 옵션 → 숨겨진 앱 데이터 삭제</td></tr>
+<tr><td>Google 계정 연결</td><td>앱의 백업 화면에서 '연결 해제', 또는 Google 계정 → 보안 → 서드파티 앱 및 서비스에서 권한 삭제</td></tr>
+<tr><td>휴대폰의 Google 백업</td><td>휴대폰 설정 또는 Google 계정의 백업 관리에서 삭제</td></tr>
+<tr><td>광고 ID</td><td>기기 설정 → Google → 광고 → 광고 ID 삭제</td></tr>
+</tbody></table></div>
+<p>별도의 계정이 없으므로 탈퇴 절차도 없습니다.</p>
+<hr>
+
+<h2>9. 아동의 개인정보</h2>
+<p>정돈은 일반 사용자를 위한 일정·가계부 앱이며 만 14세 미만 아동을 대상으로 하지 않습니다. 아동으로부터 의도적으로 정보를 수집하지 않으며, 아동을 대상으로 한 광고를 요청하지 않습니다.</p>
+<hr>
+
+<h2>10. 이용자의 권리</h2>
+<p>기록은 전부 사용자 기기 안에 있으므로 열람·수정·삭제를 <strong>앱 안에서 직접, 즉시</strong> 하실 수 있습니다. 개발자는 해당 데이터를 보유하고 있지 않습니다. 광고 관련 정보는 Google이 처리하므로 Google 계정 설정 또는 위 광고 ID 삭제로 관리하실 수 있습니다.</p>
+<hr>
+
+<h2>11. 방침 변경</h2>
+<p>내용이 변경되면 이 페이지의 시행일을 갱신하고, 중요한 변경은 앱 업데이트 내역에 표시합니다.</p>
+<hr>
+
+<h2>12. 문의</h2>
+<p>개인정보 처리에 관한 문의는 아래로 보내주시기 바랍니다.</p>
+<p><strong><a href="mailto:xorud01111@gmail.com">xorud01111@gmail.com</a></strong></p>
+</main>
+<footer><a href="./">정돈 홈</a><a href="../">앱 안내</a></footer>
+</body>
+</html>
