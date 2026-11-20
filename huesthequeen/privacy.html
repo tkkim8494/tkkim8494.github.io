@@ -79,6 +79,7 @@
 <div class="table-wrap"><table><thead><tr><th>권한</th><th>사용 목적</th></tr></thead><tbody>
 <tr><td>인터넷, 네트워크 상태</td><td>광고 표시. 퍼즐은 인터넷 없이도 플레이할 수 있습니다.</td></tr>
 <tr><td>광고 ID</td><td>Google AdMob 광고 (아래 3번)</td></tr>
+<tr><td>Android 광고 서비스 API, 절전 모드 해제, 포그라운드 서비스</td><td>Google Mobile Ads SDK가 광고 요청과 측정을 위해 함께 넣는 권한입니다. 앱 자체는 이 권한으로 하는 일이 없습니다.</td></tr>
 </tbody></table></div>
 <hr>
 
@@ -154,7 +155,7 @@
 <p>Cleared levels and times, Daily Puzzle completion, boards in progress, remaining hints, settings (auto X, last difficulty, whether you saw the rules) and an ad frequency counter. None of it is sent to the developer or used for ads. The app does not use analytics or crash reporting, and does not collect your name, email, location, contacts, photos, files, microphone or camera.</p>
 
 <h3>Permissions</h3>
-<p>Internet and network state (to show ads; puzzles work offline) and Advertising ID (for AdMob). The app does not ask you for any runtime permission.</p>
+<p>Internet and network state (to show ads; puzzles work offline) and Advertising ID (for AdMob). The Google Mobile Ads SDK also adds the Android ad services APIs, wake lock and foreground service permissions for ad requests and measurement; the app itself does not use them. The app does not ask you for any runtime permission.</p>
 
 <h3>Ads (Google AdMob)</h3>
 <p>A banner at the bottom of the screen; an interstitial ad when you move on after clearing a level (every 3 levels or after 5 minutes since the last ad, whichever comes first, never while you are solving); and a rewarded ad when you choose "ad hint" after using the 3 free hints. Google may collect your Advertising ID, IP address, device information, ad interactions and diagnostics. This data goes to Google, not to the developer; the developer only sees aggregate statistics. Users in regions that require consent (such as the EEA and UK) see Google's consent form and can change their choice from "Ad privacy settings" in the rules screen. You can delete your Advertising ID or opt out of personalized ads in Settings → Google → Ads. See <a href="https://policies.google.com/technologies/ads">Google's ads policy</a> and <a href="https://policies.google.com/privacy">Google's privacy policy</a>.</p>
